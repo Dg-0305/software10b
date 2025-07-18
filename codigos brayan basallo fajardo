@@ -1,0 +1,70 @@
+   String nombre="brayan basallo";
+    
+   int edad=16 
+           
+           System.out.println( nombre);
+           System.out.println( edad);
+       
+           System.out.println("calcular la suma de dos numeros")
+                   System.out.println(33+44);
+                   
+           System.out.println("restar dos numeros");
+           System.out.println(54-22);
+           
+           
+           System.out.println("multiplicar dos numeros");
+           System.out.println(23*5);
+           
+           System.out.println("divicion de dos numeros");
+           System.out.println(46/3);
+           
+           System.out.println("calcular el cuadrado de un numero");
+           System.out.println(9*9);
+           
+                  
+           System.out.println("grados celcius a fahrenheit");
+           System.out.println(34*1.8+32 );
+           
+           System.out.println("calcular el perimetro de un rectangulo");
+           System.out.println( 10 + 10+ 13 + 13);
+           
+           
+           System.out.println("calcular el area de un circulo");
+           System.out.println(3.14 * 7*7 );
+           
+           System.out.println("convertir años a dias");
+           System.out.println(365*4);
+           
+           
+           System.out.println("calcular el doble de un numero");
+           System.out.println(4*4);
+          
+           System.out.println("calcular el triple de un numero");
+           System.out.println(5*5*5);
+           
+           System.out.println("convecion de kilometros a metros ");
+           System.out.println(5 * 1000);
+           
+           
+          System.out.println("convercion de metros a centimetros ");
+          System.out.println(6 * 100);
+          
+          System.out.println("convercion de kilometros a centimetros");
+          System.out.println(8 * 100000);
+          
+          System.out.println("calcular el area de un cuadrado");
+          System.out.println(15 * 13);
+          
+          System.out.println("calcular el perimetro de un cuadrado");
+          System.out.println(13 + 13 + 13 + 13);
+          
+          System.out.println("suma de los 3 primeros numeros naturales");
+          System.out.println(1 + 2 + 3);
+         System.out.println(" volumen de una esfera");
+          System.out.println(40/30 * 3.14 *6 *6 *6 );
+          
+          System.out.println(" descuento aplicado a una compra )");
+          System.out.println( 170000 * 35  / 100 );
+          
+          System.out.println("propina a dejar en un restaurante");
+          System.out.println( 200000 * 2 / 100 );
