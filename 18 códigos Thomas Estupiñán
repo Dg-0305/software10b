@@ -1,0 +1,141 @@
+String name= "Thomas Estupiñán";
+     System.out.println(name);
+    
+     //imprimir suma de dos numeros2
+     
+     int variable1 = 60;
+     int variable2 = 10;
+     int suma = variable1 + variable2;
+     
+     System.out.println("la suma es: "+ suma);
+     
+     //resta de dos numeros3
+     
+     int variable3 = 65;
+     int variable4 = 56;
+     int resta = variable3 - variable4;
+     
+     System.out.println("la resta es:"+ resta);
+     
+     //multiplicar dos numeros con resultado4
+     
+     int variable5 = 67;
+     int variable6 = 90;
+     int multiplicacion = variable5 * variable6;
+     
+     System.out.println("la multiplicacion es:"+ multiplicacion);
+     
+     //dividir dos numeros5
+     
+     int variable7 = 40;
+     int variable8 = 10;
+     int division = variable7/ variable8;
+     
+     System.out.println("la division de dos numeros es:"+ division);
+     //hayar el cuadrado de un numero6
+     
+     int variable9=7;
+     int CuadradoDeunNumero= variable9 * variable9;
+     System.out.println("el cuadrado de un numero es:"+CuadradoDeunNumero );
+    
+     
+     //celsius a fahrenheit7
+     int variable10=56;//aqui se pone el numero de celsius
+     int variable11=9;
+     int variable12=5;
+      int variable13=32;    
+     int celfa=variable10*variable11;
+     int celfa2=celfa/variable12;
+     int celfa3=celfa2+variable13;
+     System.out.println("grados de celsius a grados fahrenheit:"+celfa3);
+      
+     // perimetro de un rectangulo8
+     
+     int variable14= 16;// valor de la base 
+     int variable15= 12;//   valor de las alturas 
+     int variable16=2;
+     int suma1= variable14 +variable15;
+     int multiplicacion1=variable16*suma1;
+     System.out.println("el cuadrado de un rectangulo es:"+multiplicacion1);
+     
+     // calcular el area de un circulo9
+     double Pi=3.14;
+     double Radio=35*35;// se multiplica el radio por si mismo
+     double multiplicacion2=Pi*Radio;
+      System.out.println("el area del circulo es:"+ multiplicacion2);
+      
+      //Convertir años a dias10
+      
+    int años=5;
+    int dias=365;
+    int multiplicacion3=dias*años;
+     System.out.println("la conversion de años a dias es:"+ multiplicacion3);
+     
+     //calcular el doble y el triple de un numero ingresado11
+     
+    int doble=9;
+    int triple=8;
+    int multiplicacion4=2;
+    int multiplicacion5=3;
+    int multiplicacion6=doble*multiplicacion4;
+    int multiplicacion7=triple*multiplicacion5;
+    System.out.println("el valor de doble es:"+multiplicacion6);
+    System.out.println("el valor del triple es:"+multiplicacion7);
+    
+    // kilometros a metros y centimetros12
+    
+    int kilometros=5;
+    int metros=1000;
+    int centimetros=100000;
+    int multiplicacion8=kilometros*metros;
+    int multiplicacion9=kilometros*centimetros;
+    System.out.println("el valor de kilometros a metros es:"+multiplicacion8);
+    System.out.println("el valor de kilometros a centimetros:"+multiplicacion9);
+    
+    //area y perimetro de un cuadrado13
+    
+    int area= 60*60; //el area se saca con largo y ancho al cuadrado 
+    System.out.println("El area de un cuadrado es:"+ area);
+    int perimetroC= 70*4; //el perimetro de un cuadrado se hace tras multiplicar 4 veces un lado 
+    System.out.println("El perimetro de un cuadrado es:"+perimetroC);
+    
+    //Calcular el volumen de un cubo14
+    
+   int vCubo=7*7*7; // el volumen de un cubo es una multiplicacion por tres
+   System.out.println("el volumen de un cubo es:"+vCubo);
+   
+   /// calcular el volumen de una esfera15
+   
+   double RvE=7*7*7; //el radio de una esfera se hace multiplicando uno de sus lados por 3
+   double pi1=3.14;
+   double suma5=RvE*pi1;
+   double numeroF= 4/3; 
+   double VolE= suma5 * numeroF ;
+   System.out.println("el volumen de una esfera es:"+VolE);
+           
+   ///suma de 3 primeros numeros naturales16
+   
+   int sumaN= 1+2+3;
+   System.out.println("la suma de los 3 primeros numeros naturales es:"+sumaN);
+   
+   ///calcular el descuento aplicado a una compra y su precio17
+   
+   double PCompra=5000;
+   double porcentajeDescuento= 0.60;
+   double descuento= PCompra * porcentajeDescuento;
+   double PrecioD= PCompra - descuento;
+   
+   System.out.println(" precio de la compra - el porcentaje de descuento es:"+PrecioD);
+   
+   ///calcular la propina de un restaurante y el valor de la cuenta18
+   
+   double Valcuenta=350000;
+   double propina= 0.20;
+   double Descuento= Valcuenta * propina;
+double total= Valcuenta+Descuento
+   
+   
+   System.out.println("El valor de la propina es:"+Descuento);
+
+System.out.println("el valor de la cuenta sin la propina es:"+Valcuenta);
+System.out.println("el total a pagar es:"+total);
