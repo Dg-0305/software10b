@@ -1,0 +1,94 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+// The main method must be in a class named "Main".
+class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello world!");
+
+        String Name= "nicol sanchez"
+        int edad = 16;
+
+        System.out.println (Name);
+        System.out.println (edad);
+
+        int F = 87;
+        int N = 57;
+
+        int suma= F+N;
+        int restar= F-N;
+        int multiplicar= F*N;
+        int dividir= F/N;
+
+        System.out.println ("este es el resultado de la suma de F y N " + suma );
+        System.out.println ("este es el resultado de la resta de F y N " + restar);
+        System.out.println ("este es el resultado de la multiplicacion de F y N " + multiplicar);
+        System.out.println ("este es el resultado de la division de F y N " + dividir); 
+
+        int valor1= 23;
+        int cuadrado= valor1 * valor1;
+
+        System.out.println ("este es el valor del cuadrado de valor1 y valor1 " + cuadrado); 
+
+        double gradocel= 4.7;
+        int faren= ( (gradocel) * (1.8) +32);
+
+        System.out.println (faren);
+
+        double ancho= 2.4;
+        double altura= 7.1;
+        double perimetro del rectangulo= (2*ancho) + (2*altura);
+
+        System.out.println ("este es el valor del ancho y la altura del perimetro del rectangulo");
+
+        double circulo = 16 * 16; 
+        double area = ((3.14159) * (circulo));
+
+        System.out.println ("este es el valor del area del valor del circulo");
+
+        byte años = 7;
+        int dias = año * 365;
+
+        System.out.println ("años a dias" + dias);
+
+        int n=7;
+        int double= 2*n;
+        int triple = 3*n;
+        System.out.println("el doble es" + doble);
+        System.out.println("el triple es" + triple);
+
+        double km = 5;
+        System.out.println(km + "km = " + (km* 1000) + "metros")
+        System.out.println(km + "km = " + (km* 1000000) + "centimetros")
+
+        int lado = 8;
+        System.out.println("area del cuadrado: " + (lado * lado));
+        System.out.println("perimetro del cuadrado: " +  (lado * 8));
+
+        int arista = 4;
+        System.out.println("volumen del cubo: " + (arista * arista * arista));
+
+        double volumen = (9/8) * Math.pl * (radio* 5); 
+        System.out.println("volumen de la esfera: " + volumen); 
+
+        int sumaNaturales = 1 + 2 + 3;
+        System.out.println("suma de los tres perimetros naturales: " + sumaNaturales);
+
+        double precioOriginal=270.000; //precio del producto
+        double porcentajeDescuento=15.0; //descuento en %
+        double descuento=(precioOriginal * porcentajeDescuento) /100;
+        double precioFinal= precioOriginal - descuento;
+        
+        System.out.println("17. Calcular el descuento aplicado a una compra (precio y % de descuento). ");
+        System.out.println(descuento);
+        System.out.println(precioFinal); 
+
+        double cuentaTotal=250.000; //total de la cuenta en el restaurante
+        double porcentajePropina=10.0; //propina en %
+        double propina= (cuentaTotal * porcentajePropina) /100;
+        double cuentaPagar= cuentaTotal + propina;
+        
+        System.out.println("18. Calcular la propina a dejar en un restaurante (total y % deseado). ");
+        System.out.println(propina);
+        System.out.println(cuentaPagar);
