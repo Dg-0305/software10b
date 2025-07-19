@@ -1,0 +1,110 @@
+        String Name="Samantha Roncancio";
+        int edad=15;
+        System.out.println(Name);
+        System.out.println(edad);
+
+        int a=5;
+        int b=7;
+        int suma=a+b;
+        System.out.println("este es el valor de la suma de a y b" +" "+ suma);
+
+        int c=5;
+        int d=7;
+        int resta=a-b;
+        System.out.println("este es el valor de la resta de c y d" +" "+ resta);
+
+        int e=5;
+        int f=7;
+        int multiplicacion=a*b;
+        System.out.println("este es el valor de la multiplicacion de e y f" +" "+ multiplicacion); 
+
+        int g=5;
+        int h=7;
+        int division=a/b;
+        System.out.println("este es el valor de la division de g y h" +" "+ division);
+
+        int numero=5;
+        int cuadrado=5*5;
+
+        double area=((3.14159)*(cuadrado));
+        System.out.println("el cuadrado de " + numero + " es " + cuadrado);
+
+        double gradoC=(8);
+        double gradoF=((1.8 *8)+32);
+        System.out.println("convercion de grado celsius a fahrenheit");
+        System.out.println((1.8 *8)+32);
+
+        double base=(9*9);
+        double altura=(5*5);
+        double perimetro=(base+altura);
+        System.out.println("perimetro de un rectangulo");
+        System.out.println( perimetro);
+
+        double radioC=6;
+        double RadioCus=6*6;
+        double AreaForm=3.1416*RadioCus;
+        System.out.println("calcular el area de un circulo");
+        System.out.println(AreaForm);
+        System.out.println("Respuesta cm cuadrados");
+
+
+        int años=6;
+        int dias=365*6;
+        System.out.println("años a dias");
+        System.out.println(dias);
+
+        int doble=5*2;
+        int triple=5*3;
+        System.out.println("el doble del numero");
+        System.out.println(doble);
+        System.out.println("el triple del numero");
+        System.out.println(triple);
+
+        double kilometros=5.1;
+        double metros= 5.1*1000;
+        double centimetros= 5.1*100000;
+        System.out.println("Convertir kilometros a metros");
+        System.out.println(metros);
+        System.out.println("convertir Kilometros a centimetros");
+        System.out.println(centimetros);
+
+        int ladosCu= 3;
+        int areaCua= 3*3;
+        int perimetroT=3*3*3*3;
+        System.out.println("calcular el area de un cuadrado");
+        System.out.println(areaCua);
+        System.out.println("calcular el perimetro de un cuadrado");
+        System.out.println(perimetroT) ;
+
+        int lados= 5;
+        int volumenCubi=5*5*5;
+        System.out.println("calcular el volumen de un cubo");
+        System.out.println(volumenCubi);
+
+        double radio=3.2;
+        double volumenEs=4/3*3.1416*32.768;
+        System.out.println("calcular el volumen de una esfera");
+        System.out.println(volumenEs);
+
+        int I=1;
+        int J=2;
+        int K=3;
+        int sumaNu=I+J+K;
+        System.out.println("sumar los 3 primeros numeros naturales");
+        System.out.println(sumaNu);
+
+        double precioI= 20.000;
+        double descuentoPorcenta= 20;
+        double descuentoH=20.000*descuentoPorcenta/100;
+        double precioTotal=descuentoH-precioI;
+        System.out.println("calcular el descuento de una compra /precio y % de descuento");
+        System.out.println(descuentoH);
+        System.out.println(precioTotal);
+
+        double cuenta= 200.000;
+        double porcentajePropina=15;
+        double propina=200.000*porcentajePropina/100;
+        double totalcuenta=cuenta+propina;
+        System.out.println("calcular la propina de un restaurante /total y %deseado");
+        System.out.println(porcentajePropina);
+        System.out.println(totalcuenta);  
