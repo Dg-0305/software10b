@@ -1,0 +1,314 @@
+1. Imprimir tu nombre y edad — ImprimirNombreEdad.java
+
+import java.util.Scanner;
+
+public class ImprimirNombreEdad {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("¿Cuál es tu nombre? ");
+        String nombre = sc.nextLine();
+        // elimina nextLine después de oprimir ¨enter¨ se queda en el buffer 
+        System.out.print("¿Cuál es tu edad? ");
+        int edad = sc.nextInt();
+
+        System.out.println("Hola, " + nombre + ". Tienes " + edad + " años.");
+        sc.close();
+    }
+}
+
+2. Suma de dos números — SumaDosNumeros.java
+
+import java.util.Scanner;
+
+public class SumaDosNumeros {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Ingresa el primer número: ");
+        double a = sc.nextDouble();
+        // elimina nextDouble después de oprimir ¨enter¨ se queda en el buffer 
+        System.out.print("Ingresa el segundo número: ");
+        double b = sc.nextDouble();
+
+        double suma = a + b;
+        System.out.println("La suma es: " + suma);
+        sc.close();
+    }
+}
+
+3. Resta de dos números — RestaDosNumeros.java
+
+import java.util.Scanner;
+
+public class RestaDosNumeros {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Primer número: ");
+        double a = sc.nextDouble();
+        // elimina nextDouble después de oprimir ¨enter¨ se queda en el buffer 
+        System.out.print("Segundo número: ");
+        double b = sc.nextDouble();
+
+        System.out.println("La resta es: " + (a - b));
+        sc.close();
+    }
+}
+
+4. Multiplicación de dos números — MultiplicaDosNumeros.java
+
+import java.util.Scanner;
+
+public class MultiplicaDosNumeros {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Número 1: ");
+        double a = sc.nextDouble();
+        // elimina nextDouble después de oprimir ¨enter¨ se queda en el buffer 
+        System.out.print("Número 2: ");
+        double b = sc.nextDouble();
+
+        System.out.println("Producto: " + (a * b));
+        sc.close();
+    }
+}
+
+5. División de dos números — DivideDosNumeros.java
+
+import java.util.Scanner;
+
+public class DivideDosNumeros {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Dividendo: ");
+        double a = sc.nextDouble();
+        // elimina nextDouble después de oprimir ¨enter¨ se queda en el buffer 
+        System.out.print("Divisor: ");
+        double b = sc.nextDouble();
+
+        if (b != 0) {
+            System.out.println("Cociente: " + (a / b));
+        } else {
+            System.out.println("¡Error! No se puede dividir entre cero.");
+        }
+        sc.close();
+    }
+}
+
+6. Cuadrado de un número — CuadradoNumero.java
+
+import java.util.Scanner;
+
+public class CuadradoNumero {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Número: ") 
+        double n = sc.nextDouble();
+        // elimina nextDouble después de oprimir ¨enter¨ se queda en el buffer 
+        System.out.println("Su cuadrado es: " + (n * n));
+        sc.close();
+    }
+}
+
+7. Celsius a Fahrenheit — CelsiusAFahrenheit.java
+
+import java.util.Scanner;
+
+public class CelsiusAFahrenheit {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Temperatura en °C: ");
+        double c = sc.nextDouble();
+        // elimina nextDouble después de oprimir ¨enter¨ se queda en el buffer 
+        double f = (c * 9 / 5) + 32;
+        System.out.println(c + " °C equivalen a " + f + " °F.");
+        sc.close();
+    }
+}
+
+8. Perímetro de un rectángulo — PerimetroRectangulo.java
+
+import java.util.Scanner;
+
+public class PerimetroRectangulo {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Base: ");
+        double base = sc.nextDouble();
+        // elimina nextDouble después de oprimir ¨enter¨ se queda en el buffer 
+        System.out.print("Altura: ");
+        double altura = sc.nextDouble();
+
+        double perimetro = 2 * (base + altura);
+        System.out.println("Perímetro: " + perimetro);
+        sc.close();
+    }
+}
+
+9. Área de un círculo — AreaCirculo.java
+
+import java.util.Scanner;
+
+public class AreaCirculo {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Radio: ");
+        double r = sc.nextDouble();
+        // elimina nextDouble después de oprimir ¨enter¨ se queda en el buffer 
+        double área = Math.PI * r * r;
+        System.out.println("Área: " + área);
+        sc.close();
+    }
+}
+
+10. Años a días — AñiosADias.java
+
+import java.util.Scanner;
+
+public class AñiosADias {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Cantidad de años: ");
+        int añios = sc.nextInt();
+        // elimina nextInt después de oprimir ¨enter¨ se queda en el buffer 
+        int días = añios * 365;            // Año común
+        int díasBisiestos = añios / 4;     // Ajuste aproximado
+        System.out.println("Equivalen a " + (días + díasBisiestos) + " días (aprox.).");
+        sc.close();
+    }
+}
+
+11. Doble y triple — DobleTriple.java
+
+import java.util.Scanner;
+
+public class DobleTriple {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Número: ");
+        double n = sc.nextDouble();
+        // elimina nextDouble después de oprimir ¨enter¨ se queda en el buffer 
+        System.out.println("Doble: " + (2 * n));
+        System.out.println("Triple: " + (3 * n));
+        sc.close();
+    }
+}
+
+12. Kilómetros a metros y centímetros — KmAMetrosYCentimetros.java
+
+import java.util.Scanner;
+
+public class KmAMetrosYCentimetros {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Kilómetros: ");
+        double km = sc.nextDouble();
+        // elimina nextDouble después de oprimir ¨enter¨ se queda en el buffer 
+        double metros = km * 1_000;
+        double centimetros = metros * 100;
+        System.out.println(km + " km = " + metros + " m = " + centimetros + " cm");
+        sc.close();
+    }
+}
+
+13. Área y perímetro de un cuadrado — CuadradoAreaPerimetro.java
+
+import java.util.Scanner;
+
+public class CuadradoAreaPerimetro {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Longitud del lado: ");
+        double lado = sc.nextDouble();
+        // elimina nextDouble después de oprimir ¨enter¨ se queda en el buffer 
+        double área = lado * lado;
+        double perimetro = 4 * lado;
+        System.out.println("Área: " + área);
+        System.out.println("Perímetro: " + perimetro);
+        sc.close();
+    }
+}
+
+14. Volumen de un cubo — VolumenCubo.java
+
+import java.util.Scanner;
+
+public class VolumenCubo {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Longitud de la arista: ");
+        double a = sc.nextDouble();
+        // elimina nextDouble después de oprimir ¨enter¨ se queda en el buffer 
+        double volumen = Math.pow(a, 3);
+        System.out.println("Volumen: " + volumen);
+        sc.close();
+    }
+}
+
+15. Volumen de una esfera — VolumenEsfera.java
+
+import java.util.Scanner;
+
+public class VolumenEsfera {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Radio: ");
+        double r = sc.nextDouble();
+        // elimina nextDouble después de oprimir ¨enter¨ se queda en el buffer 
+        double volumen = (4.0 / 3.0) * Math.PI * Math.pow(r, 3);
+        System.out.println("Volumen: " + volumen);
+        sc.close();
+    }
+}
+
+16. Suma de los tres primeros números naturales — SumaTresPrimeros.java
+
+public class SumaTresPrimeros {
+    public static void main(String[] args) {
+        int suma = 1 + 2 + 3;
+        System.out.println("La suma de 1 + 2 + 3 es: " + suma);
+    }
+}
+
+17. Descuento en una compra — DescuentoCompra.java
+
+import java.util.Scanner;
+
+public class DescuentoCompra {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Precio original: ");
+        double precio = sc.nextDouble();
+        // elimina nextDouble después de oprimir ¨enter¨ se queda en el buffer 
+        System.out.print("Descuento (%): ");
+        double porcentaje = sc.nextDouble();
+        // elimina nextDouble después de oprimir ¨enter¨ se queda en el buffer 
+        double descuento = precio * porcentaje / 100;
+        double total = precio - descuento;
+
+        System.out.println("Descuento: $" + descuento);
+        System.out.println("Total a pagar: $" + total);
+        sc.close();
+    }
+}
+
+18. Propina en un restaurante — CalculaPropina.java
+
+import java.util.Scanner;
+
+public class CalculaPropina {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Total de la cuenta: ");
+        double totalCuenta = sc.nextDouble();
+        // elimina nextDouble después de oprimir ¨enter¨ se queda en el buffer 
+        System.out.print("Propina deseada (%): ");
+        double porcentaje = sc.nextDouble();
+        // elimina nextDouble después de oprimir ¨enter¨ se queda en el buffer 
+        double propina = totalCuenta * porcentaje / 100;
+        double totalaPagar = totalCuenta + propina;
+
+        System.out.println("Propina: $" + propina);
+        System.out.println("Total con propina: $" + totalaPagar);
+        sc.close();
+    }
+}
