@@ -1,0 +1,87 @@
+String name="Danna Galvis";
+                int edad=15; 
+    System.out.println("1. Imprimir tu nombre y edad. ");
+    System.out.println(name);
+    System.out.println(edad);
+    
+    int a=1;
+    int b=2;
+    int suma=a+b;
+    System.out.println("2. Calcular la suma de dos numeros. ");
+    System.out.println("este es el valor de la suma de a y b" +" "+ suma);
+    
+    int resta=a-b;
+    System.out.println("3. Restar dos numeros ingresados por el usuario. ");
+    System.out.println("este es el valor de la resta de a y b" +" "+ resta);
+    
+    int multiplicacion=a*b;
+    System.out.println("4. Multiplicar dos numeros y mostrar el resultado. ");
+    System.out.println("este es el valor de la multiplicación de a y b" +" "+ multiplicación);
+    
+    int division=a/b;
+    System.out.println("5. Dividir dos numeros y mostrar el cociente. ");
+    System.out.println("este es el valor de la division de a y b" +" "+ divison);
+    
+    int numero=4;//este es el radio del circulo
+    int cuadrado=4*4;
+                  double areaC=((3.14159)*(cuadrado));
+     System.out.println("6. Calcular el cuadrado de un numero. ");
+      System.out.println("el cuadrado de " + numero + " es " + cuadrado);
+      
+     double gradoCel=(1.9);
+     double gradofaren=((gradoCel) * (1.8)+32);
+     System.out.println("7. Convertir grados Celsius a Fahrenheir. ");
+     System.out.println(gradofaren);
+    System.out.println(((gradoCel) * (1.8)+32));
+    
+    double valor1= 2.5; //es el lado del rectángulo
+    double valor2= 3.6; //es la altura del rectángulo
+    double perimetrorec=(2*valor1)+(2*valor2);
+    System.out.println("8. Calcular el perimetro de un rectangulo. ");
+    System.out.println(perimetrorec);
+   
+    System.out.println("9. Calcular el area de un circulo. ");
+    System.out.println(areaC);
+    
+    int años=4;
+    int dias=años*365;
+    System.out.println("10. Convertir años a dias. ");
+    System.out.println(dias);
+    
+    int doble=2*años;
+    int triple=3*años;
+    System.out.println("11. Calcular el doble y el triple de un numero. ");
+    System.out.println(doble);
+    System.out.println(triple);
+    
+    double kilometros=2.5;
+    double metros= kilometros*1000;
+    double centimetros= kilometros*100000;
+     System.out.println("12. Convertir kilometros a metros y centimetros.  ");
+    System.out.println(metros);
+    System.out.println(centimetros);
+    
+    int lado=5;
+    int areaCua= lado*lado;
+    int perimetroCua= 4*lado;
+    System.out.println("13. Calcular el área y el perímetro de un cuadrado.  ");
+    System.out.println(areaCua);
+    System.out.println(perimetroCua);
+    
+    int volumenCubo= lado*lado*lado;
+    System.out.println("14. Calcular el volumen de un cubo. ");
+    System.out.println(volumenCubo);
+    
+    double radio=4.5;
+    double cubo= radio*radio*radio;
+    double volumenEsfe= (4.0 / 3.0) * 3.14159 *(cubo);
+    System.out.println("15. Calcular el volumen de una esfera. ");
+    System.out.println(volumenEsfe);
+    
+    int c=3;
+            suma= suma+c;
+    System.out.println("16. Sumar los tres primeros numeros naturales. ");
+    System.out.println("este es el valor de la suma + c" +" "+ suma);
+    
+    double precioOriginal=200.000; //precio del producto
+    double porcentajeDescuento=15.0; //descuento en %
